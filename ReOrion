@@ -25,11 +25,11 @@ local OrionLib = {
 	SaveCfg = false
 }
 
---https://github.com/frappedevs/lucideblox/tree/master/src/modules/util | i love you orion remake by cucumber
+--https://github.com/frappedevs/lucideblox/tree/master/src/modules/util
 local Icons = {}
 
 local Success, Response = pcall(function()
-	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://github.com/frappedevs/lucideblox/blob/master/src/modules/util/icons.json")).icons
+	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://raw.githubusercontent.com/frappedevs/lucideblox/refs/heads/master/src/modules/util/icons.json")).icons
 end)
 
 if not Success then
