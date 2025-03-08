@@ -33,7 +33,7 @@ local Success, Response = pcall(function()
 end)
 
 if not Success then
-	warn("hmm... if u see this message, discord dm me @cucumber_takeme")
+	warn("fuck fuck fuck why always error error error")
 end	
 
 local function GetIcon(IconName)
